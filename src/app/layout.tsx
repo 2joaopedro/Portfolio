@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${rubik.className} bg-[#292929]`}>
-        <div className="px-36 py- w-screen">
+        <div className="px-36 py-16 w-screen">
           <Header />
           <main>{children}</main>
         </div>
