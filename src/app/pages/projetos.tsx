@@ -15,8 +15,8 @@ export default function Projetos() {
         image={IgniteTime}
         tecs={["Vite", "StyledComponents", "React.Js"]}
         links={[
-          { url: "https://github.com/2joaopedro/Ignite-Time?tab=readme-ov-file", icon: <GitHub className="text-[#F0F0F0]" /> },
-          { url: "https://ignite-time-beta.vercel.app/", icon: <ExternalLink className="text-[#F0F0F0]" /> }
+          { url: "https://github.com/2joaopedro/Ignite-Time?tab=readme-ov-file", icon: <GitHub className="text-[#F0F0F0] hover:[#CCCCCC]" /> },
+          { url: "https://ignite-time-beta.vercel.app/", icon: <ExternalLink className="text-[#F0F0F0] hover:[#CCCCCC]" /> }
         ]}  
       />
 
@@ -26,8 +26,8 @@ export default function Projetos() {
         image={IgniteTodo}
         tecs={["Vite", "StyledComponents", "React.Js"]}
         links={[
-          { url: "https://github.com/2joaopedro/Ignite-ToDo", icon: <GitHub className="text-[#F0F0F0]" /> },
-          { url: "https://ignite-to-do-tau.vercel.app/", icon: <ExternalLink className="text-[#F0F0F0]" /> }
+          { url: "https://github.com/2joaopedro/Ignite-ToDo", icon: <GitHub className="text-[#F0F0F0] hover:[#CCCCCC]" /> },
+          { url: "https://ignite-to-do-tau.vercel.app/", icon: <ExternalLink className="text-[#F0F0F0] hover:[#CCCCCC]" /> }
         ]}  
       />
        <ProjetoCard 
@@ -36,8 +36,8 @@ export default function Projetos() {
         image={Pokedex}
         tecs={["Next", "Tailwnld", "React.Js"]}
         links={[
-          { url: "https://github.com/2joaopedro/pokedex?tab=readme-ov-file", icon: <GitHub className="text-[#F0F0F0]" /> },
-          { url: "https://pokedex-sigma-sage.vercel.app/", icon: <ExternalLink className="text-[#F0F0F0]" /> }
+          { url: "https://github.com/2joaopedro/pokedex?tab=readme-ov-file", icon: <GitHub className="text-[#F0F0F0] hover:[#CCCCCC]" /> },
+          { url: "https://pokedex-sigma-sage.vercel.app/", icon: <ExternalLink className="text-[#F0F0F0] hover:[#CCCCCC]" /> }
         ]}  
       />
       </div>
